@@ -26,6 +26,7 @@ Bespoke policies to create within module. Use policy names or name_prefix as key
     name_prefix = optional(string) # Creates a unique name beginning with the specified prefix. Conflicts with 'name'
     path        = optional(string)
     policy      = string # **Required**  JSON formatted string
+    }
 ```    
 EOF
 }
